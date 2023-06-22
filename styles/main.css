@@ -4,3 +4,28 @@ body {
   background-color: antiquewhite;
   font-size: 2vmax;
 }
+
+/*The below section is styling for our menu/nav bar*/
+.nav-bar-ul {
+  list-style-type: none; /*removes bullets from list*/
+  margin: 0;
+  padding: 0;
+  /* this secction is a little bugged
+  position: fixed; /*stcks menu to bottom*/
+  /*bottom: 0; /*gives position */
+}
+
+.nav-bar-li a {
+  display: block; /*allow clicking whole area*/
+  padding: 5px;
+}
+
+.nav-bar-li a:hover {
+  background-color: #555;
+  color: white;
+} /*changes color of a elements in nav bar list when hovered over*/
+
+.nav-bar-li {
+  display: inline-block; /*apparently inline doesn't work with block styling, so inline-block is an alternative*/
+}
+/*Menu styling ends here */
