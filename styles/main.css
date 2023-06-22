@@ -13,7 +13,7 @@ body {
 }
 
 /*The below section is styling for our menu/nav bar*/
-.nav-bar-ul {
+#nav-bar-ul {
   list-style-type: none; /*removes bullets from list*/
   margin: 0;
   padding: 0;
