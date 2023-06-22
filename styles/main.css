@@ -12,6 +12,11 @@ body {
   }
 }
 
+.page-top {
+  padding: 50px;
+  font-weight: 1000;
+}
+
 /*The below section is styling for our menu/nav bar*/
 #nav-bar-ul {
   list-style-type: none; /*removes bullets from list*/
