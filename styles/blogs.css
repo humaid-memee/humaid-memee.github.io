@@ -1,3 +1,6 @@
+p {
+  padding:20px;
+}
 /*the below section stop the list numbers from moving all the way to the left of the screen*/
 .center-list {
   text-align: center;
