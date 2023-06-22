@@ -25,6 +25,7 @@ body {
 .nav-bar-li a {
   display: block; /*allow clicking whole area*/
   padding: 5px;
+  border-radius: 5px;
 }
 
 .nav-bar-li a:hover {
