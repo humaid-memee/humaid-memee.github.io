@@ -3,3 +3,48 @@
   text-align: center;
   list-style-position: inside;
 }
+
+#turtle-relative {
+  position: relative;
+  left: 200px;
+}
+
+#relative-example {
+  max-width: 50%;
+  height: auto;
+  padding: 50px;
+}
+
+.turtle-box {
+  position:relative;
+  width: 50vw;
+  height:10vw;
+  border-color: black;
+  border-style: solid;
+  display: inline-block;
+}}
+
+.absolute-turtle {
+ height: 250px;
+ width:auto;
+
+}
+
+#abs-moved-turtle {
+  position: absolute;
+  left:50vw;
+  bottom: 10vw;
+}
+
+.spacer {
+  padding: 50px;
+}
+
+#fixed-turtle {
+  position: fixed;
+  bottom:0;
+  left:0;
+  width:5vw;
+}
+
+

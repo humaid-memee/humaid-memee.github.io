@@ -22,13 +22,34 @@
      <p>In this blog post, we will be focusing on Relative, Absolute and Fixed Positioning</p>
      <h2 class="section-heading">Relative Positioning</h2>
      <p>Relative positioning allows us to position a part of our page('element') based on the location it would normally be. Take this image below:</p>
-     <img id="turtle-footer" src= "../images/homepage-images/turtle.png" alt="">
+     <img class="turtle-footer" src= "../images/homepage-images/turtle.png" alt="">
      <p>Because everything on our page has been centered, it sits in the middle of the page.</p>
      <p>However, if we add some CSS code, we can move it, based on where it is normally.</p>
      <p>Let's apply some styling to the turtle.</p>
-     <img id="turtle-footer" src= "../images/homepage-images/turtle.png" alt="">
+     <img id="relative-example" src="../images/CSS-positioning-images/relative-code-ex.png" alt="an example of CSS code to position elements relative to their original position">
+     <p>The first part "#turtle-relative" is what identifies this particular turtle images, out of the countless others scattered around on this site. Then, our curly brackets contain the 'directions'. Our first direction "position: relative", is self explanatory, it tells the turtle image the type of positioning (relative). Next, "left:200px", tells the turtle is should move, 200px from the left. Keep in mind, it is not moving TO the left.</p>
+
+     <div></div>
+     <img class="turtle-footer" id="turtle-relative" src= "../images/homepage-images/turtle.png" alt="">
+     <div></div>
      <h2 class="section-heading">Absolute Positioning</h2>
+     <p>Absolute positioning allows us to position an element based on its 'ancestor'. This is a connected element that it might sit inside. If we do not have one of these, it will position itself relative to the body of our document, as all our elements sit inside this.</p>
+     <p>For this example, we will put the turtle in a box.</p>
+     <div class="turtle-box"><img class="turtle-footer absolute-turtle" src= "../images/homepage-images/turtle.png" alt=""></div>
+     <p>Let's apply some styling to the turtle.</p>
+     <img src="../images/CSS-positioning-images/absolute-code-ex.png" alt="an example of CSS code to position elements relative to their parent element">
+     <p>Once again, we have given the turtle an identifier. Now, we have a few differences, the position is now "absolute". Once again, the turtle has moved relative from the BOTTOM and LEFT of the box. You may notice we haven't used pixels, rather vw, this allows us to move it based on the viewing window, or our screen.</p>
+     <div class="spacer"></div>
+     <div class="turtle-box"><img class="turtle-footer absolute-turtle" id="abs-moved-turtle" src= "../images/homepage-images/turtle.png" alt=""></div>
+     <p> Our turtle has escaped! It has moved relative to the box.</p>
      <h2 class="section-heading">Fixed Positioning</h2>
+     <p>Finally, our last type of positioning. With this type, our elements are position based on our window('viewport'). </p>
+     <img class="turtle-footer" id="fixed-turtle" src= "../images/homepage-images/turtle.png" alt="">
+     <p>This turtle has been with us the whole time, hopefully you noticed it sitting in the bottom left of the screen, notice how even if you scroll, it hasn't moved.</p>
+     <p>Here's our styling for this turtle.</p>
+     <img src="../images/CSS-positioning-images/fixed-code-ex.png" alt="an example of CSS code to position elements relative to their parent element">
+     <p>Same as before, we've identified this turtle, and given it a fixed position. However, the bottom and left values are based on the bottom and left of our window. Since these are both 0, the turtle sits in the bottom left corner of our page. Finally, the "width:5vw". We wouldn't want a big turtle stopping you from reading the page, so it's been sized to take up 5% of our viewport.</p>
+
     </div>
      <!--The below section is for the navigation bar/menu-->
     <ul id="nav-bar-ul">
@@ -38,6 +59,6 @@
       <li class="nav-bar-li"><a href="#">About Me</a></li>
     </ul>
     <!--Menu section ends here-->
-    <img id="turtle-footer" src= "../images/homepage-images/turtle.png" alt="">
+    <img class="turtle-footer" src= "../images/homepage-images/turtle.png" alt="">
   </body>
 </html>

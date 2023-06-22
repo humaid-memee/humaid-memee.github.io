@@ -43,7 +43,7 @@ body {
 }
 /*Menu styling ends here */
 
-#turtle-footer {
+.turtle-footer {
   max-width: 10%;
   height: auto;
   padding: 50px;
