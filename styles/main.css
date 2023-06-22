@@ -5,6 +5,13 @@ body {
   font-size: 2vmax;
 }
 
+/*the below media query allows text to fill smaller screen size*/
+@media screen and (max-width: 900px) {
+  body {
+    font-size: 2rem;
+  }
+}
+
 /*The below section is styling for our menu/nav bar*/
 .nav-bar-ul {
   list-style-type: none; /*removes bullets from list*/
