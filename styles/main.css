@@ -13,7 +13,7 @@ body {
 }
 
 .page-top {
-  padding: 50px;
+  padding-top: 50px;
   font-weight: 1000;
 }
 
@@ -42,3 +42,9 @@ body {
   display: inline-block; /*apparently inline doesn't work with block styling, so inline-block is an alternative*/
 }
 /*Menu styling ends here */
+
+img {
+  max-width: 10%;
+  height: auto;
+  padding: 50px;
+}
