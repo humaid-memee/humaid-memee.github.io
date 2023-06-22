@@ -48,3 +48,12 @@ img {
   height: auto;
   padding: 50px;
 }
+
+.home-welcome {
+  padding: 0px;
+}
+
+.recent-blog-posts {
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
