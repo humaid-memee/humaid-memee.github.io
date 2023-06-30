@@ -18,9 +18,13 @@
     <p>Notice how the html element is a branch below the document element, this will come in handy when it comes to accessing the DOM.</p>
     <h4>Accessing the DOM</h4>
     <p>The DOM is essential when we want to use Javascript to manipulate our HTML. Where HTML forms the bare structure of our the house that is our webpage, and CSS makes it pretty. (Think of CSS as the paint, furnishings and decorations in our house) Javascript allows us to make the house interactive and exciting. Think of it like adding sensor lights or automatic doors.</p>
-    <p>Let's say we wanted to add am interactive button to our page.</p>
+    <p>Let's say we wanted to add an interactive button to our page.</p>
     <button id= "exampleJsDomButton">Click Me!</button>
-
+    <p>Notice how the button turns gray when we click on it. This is because we have written code that changes the id of the button when it is clicked on. Check out the below code, paying attention to the first line.</p>
+    <img src="../images/js-DOM-images/dom-js-example.png" alt="an example of code allowing the example button to turn gray">
+    <p>The first part of the first line is accessing the DOM, through the document part, which is what '.document' is for. The next section, 'getElementById' selects the relevant element with that id. '.onclick' allows the parts after the equals sign to run once the element is clicked on.</p>
+    <p>Finally, the section afterwards the equals sign 'exampleButton', this runs the section below once the button is clicked.</p>
+    <p>That part of the code is a 'function', which is what allows us to only type 'exampleButton' in the above section. A function is where name a section of code. This allows us to run that code, over and over throughout our file, by only typing the name of it. (Also know as 'calling the function")</p>
      <!--The below section is for the navigation bar/menu-->
     <ul id="nav-bar-ul">
       <li class="nav-bar-li"> <a href="../index.html" >Home</a></li>
@@ -30,5 +34,6 @@
     </ul>
     <!--Menu section ends here-->
     <img class="turtle-footer" src= "../images/homepage-images/turtle.png" alt="">
+    <script src="../javascript/js-and-DOM.js"></script>
   </body>
 </html>
